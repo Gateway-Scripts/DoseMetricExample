@@ -13,7 +13,7 @@
             <converters:PassFailColorConverter x:Key="passFailConverter"/>
         </ResourceDictionary>
     </UserControl.Resources>
-    <Grid Background="LightGray">
+    <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>

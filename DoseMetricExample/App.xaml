@@ -4,6 +4,304 @@
              xmlns:local="clr-namespace:DoseMetricExample"
              Startup="Application_Startup">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <!--#region Spider Verse-->
+            <!-- Spider-Verse Color Palette -->
+            <Color x:Key="PrimaryColor">#FF0D0F2A</Color>
+            <!-- Deep indigo for main backgrounds -->
+            <Color x:Key="AccentColor">#FF4A00E0</Color>
+            <!-- Vibrant neon purple for accents -->
+            <Color x:Key="SecondaryColor">#FF1A1B2E</Color>
+            <!-- Darker purple-blue for secondary areas -->
+            <Color x:Key="TextColor">#FFE4E4F3</Color>
+            <!-- Light cool gray for text readability -->
+            <Color x:Key="BackgroundColor">#FF15183D</Color>
+            <!-- Very dark, almost black-blue for background -->
+            <Color x:Key="HighlightColor">#FFFF3A3A</Color>
+            <!-- Bold, Spider-Man red for highlights -->
+            <Color x:Key="ButtonColor">#FF0077FF</Color>
+            <!-- Electric blue for button pops of color -->
+            <Color x:Key="SuccessColor">#FF19A374</Color>
+            <!-- Bright teal-green for success indicators -->
+
+            <!-- Brushes for the Color Palette -->
+            <SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource PrimaryColor}"/>
+            <SolidColorBrush x:Key="AccentBrush" Color="{StaticResource AccentColor}"/>
+            <SolidColorBrush x:Key="SecondaryBrush" Color="{StaticResource SecondaryColor}"/>
+            <SolidColorBrush x:Key="TextBrush" Color="{StaticResource TextColor}"/>
+            <SolidColorBrush x:Key="BackgroundBrush" Color="{StaticResource BackgroundColor}"/>
+            <SolidColorBrush x:Key="HighlightBrush" Color="{StaticResource HighlightColor}"/>
+            <SolidColorBrush x:Key="ButtonBrush" Color="{StaticResource ButtonColor}"/>
+            <SolidColorBrush x:Key="SuccessBrush" Color="{StaticResource SuccessColor}"/>
+            <!--#endregion-->
+
+            <!--#region Interstellar-->
+            <!-- Interstellar Color Palette -->
+            <!--<Color x:Key="PrimaryColor">#FF1B1F32</Color>-->
+            <!-- Deep space blue-black for backgrounds -->
+            <!--<Color x:Key="AccentColor">#FF8A9DA8</Color>-->
+            <!-- Soft, desaturated gray-blue for accents -->
+            <!--<Color x:Key="SecondaryColor">#FF2D3545</Color>-->
+            <!-- Dark, steel gray for secondary areas -->
+            <!--<Color x:Key="TextColor">#FFDFDFE2</Color>-->
+            <!-- Light, cool gray for readable text -->
+            <!--<Color x:Key="BackgroundColor">#FF0F131D</Color>-->
+            <!-- Almost-black for the main background -->
+            <!--<Color x:Key="HighlightColor">#FF80C1FF</Color>-->
+            <!-- Pale starlight blue for highlights -->
+            <!--<Color x:Key="ButtonColor">#FF3A4B5C</Color>-->
+            <!-- Dark slate blue-gray for buttons -->
+            <!--<Color x:Key="SuccessColor">#FF4D92A5</Color>-->
+            <!-- Muted teal for success indicators -->
+
+            <!-- Brushes for the Color Palette -->
+            <!--<SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource PrimaryColor}"/>
+            <SolidColorBrush x:Key="AccentBrush" Color="{StaticResource AccentColor}"/>
+            <SolidColorBrush x:Key="SecondaryBrush" Color="{StaticResource SecondaryColor}"/>
+            <SolidColorBrush x:Key="TextBrush" Color="{StaticResource TextColor}"/>
+            <SolidColorBrush x:Key="BackgroundBrush" Color="{StaticResource BackgroundColor}"/>
+            <SolidColorBrush x:Key="HighlightBrush" Color="{StaticResource HighlightColor}"/>
+            <SolidColorBrush x:Key="ButtonBrush" Color="{StaticResource ButtonColor}"/>
+            <SolidColorBrush x:Key="SuccessBrush" Color="{StaticResource SuccessColor}"/>-->
+            <!--#endregion-->
+
+            <!--#region Star Wars-->
+            <!-- Revenge of the Sith Color Palette -->
+            <!--<Color x:Key="PrimaryColor">#FF1C1B1A</Color>-->
+            <!-- Dark black-gray for backgrounds -->
+            <!--<Color x:Key="AccentColor">#FF9A3100</Color>-->
+            <!-- Fiery lava orange for accents -->
+            <!--<Color x:Key="SecondaryColor">#FF4B3A36</Color>-->
+            <!-- Smoky brown-gray for secondary areas -->
+            <!--<Color x:Key="TextColor">#FFB0A896</Color>-->
+            <!-- Rich, warm gray for readable text on dark backgrounds -->
+            <!--<Color x:Key="BackgroundColor">#FF121212</Color>-->
+            <!-- Deep, dark charcoal for main background -->
+            <!--<Color x:Key="HighlightColor">#FFBA1F23</Color>-->
+            <!-- Sith red for critical highlights -->
+            <!--<Color x:Key="ButtonColor">#FF5C5248</Color>-->
+            <!-- Dark earthy brown for buttons -->
+            <!--<Color x:Key="SuccessColor">#FF2A602D</Color>-->
+            <!-- Dark olive green for success indicators -->
+
+            <!-- Brushes for the Color Palette -->
+            <!--<SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource PrimaryColor}"/>
+            <SolidColorBrush x:Key="AccentBrush" Color="{StaticResource AccentColor}"/>
+            <SolidColorBrush x:Key="SecondaryBrush" Color="{StaticResource SecondaryColor}"/>
+            <SolidColorBrush x:Key="TextBrush" Color="{StaticResource TextColor}"/>
+            <SolidColorBrush x:Key="BackgroundBrush" Color="{StaticResource BackgroundColor}"/>
+            <SolidColorBrush x:Key="HighlightBrush" Color="{StaticResource HighlightColor}"/>
+            <SolidColorBrush x:Key="ButtonBrush" Color="{StaticResource ButtonColor}"/>
+            <SolidColorBrush x:Key="SuccessBrush" Color="{StaticResource SuccessColor}"/>-->
+
+            <!--#endregion-->
+
+            <!--#region LOTR-->
+            <!-- Lord of the Rings Color Palette -->
+            <!--<Color x:Key="PrimaryColor">#FF2C3E3E</Color>-->
+            <!-- Dark forest green for backgrounds -->
+            <!--<Color x:Key="AccentColor">#FFD4A017</Color>-->
+            <!-- Warm gold accent for highlights -->
+            <!--<Color x:Key="SecondaryColor">#FF5E503F</Color>-->
+            <!-- Muted earthy brown for secondary areas -->
+            <!--<Color x:Key="TextColor">#FFC4B28F</Color>-->
+            <!-- Warm, deeper parchment beige for readable text -->
+            <!--<Color x:Key="BackgroundColor">#FF1E2A2A</Color>-->
+            <!-- Darker, almost black-green background -->
+            <!--<Color x:Key="HighlightColor">#FFA67F2D</Color>-->
+            <!-- Coppery bronze for special highlights -->
+            <!--<Color x:Key="ButtonColor">#FF4A6B3C</Color>-->
+            <!-- Mossy green for buttons -->
+            <!--<Color x:Key="SuccessColor">#FF7EAE6F</Color>-->
+            <!-- Soft sage green for success indications -->
+
+            <!-- Brushes for the Color Palette -->
+            <!--<SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource PrimaryColor}"/>
+            <SolidColorBrush x:Key="AccentBrush" Color="{StaticResource AccentColor}"/>
+            <SolidColorBrush x:Key="SecondaryBrush" Color="{StaticResource SecondaryColor}"/>
+            <SolidColorBrush x:Key="TextBrush" Color="{StaticResource TextColor}"/>
+            <SolidColorBrush x:Key="BackgroundBrush" Color="{StaticResource BackgroundColor}"/>
+            <SolidColorBrush x:Key="HighlightBrush" Color="{StaticResource HighlightColor}"/>
+            <SolidColorBrush x:Key="ButtonBrush" Color="{StaticResource ButtonColor}"/>
+            <SolidColorBrush x:Key="SuccessBrush" Color="{StaticResource SuccessColor}"/>-->
+            <!--#endregion-->
+
+            <!--#region Vice-->
+            <!-- Neon Miami Vice Color Palette -->
+            <!--<Color x:Key="PrimaryColor">#FF2E2E3E</Color>-->
+            <!-- Deep indigo-gray for the main background -->
+            <!--<Color x:Key="AccentColor">#FFFF77E8</Color>-->
+            <!-- Neon aqua for primary accents -->
+            <!--<Color x:Key="SecondaryColor">#FF3C3C5C</Color>-->
+            <!-- Dark purple-gray for secondary areas -->
+            <!--<Color x:Key="TextColor">#FFB0B8FF</Color>-->
+            <!-- Light off-white for text -->
+            <!--<Color x:Key="BackgroundColor">#FF2E2E3E</Color>-->
+            <!-- Same as Primary for cohesive background -->
+            <!--<Color x:Key="HighlightColor">#FFFF77E8</Color>-->
+            <!-- Neon pink-magenta for highlights -->
+            <!--<Color x:Key="ButtonColor">#FFFFA552</Color>-->
+            <!-- Coral-orange for button pops of color -->
+            <!--<Color x:Key="SuccessColor">#FF00FFAB</Color>-->
+            <!-- Bright green-cyan for success indicators -->
+
+            <!-- Brushes for the Color Palette -->
+            <!--<SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource PrimaryColor}"/>
+    <SolidColorBrush x:Key="AccentBrush" Color="{StaticResource AccentColor}"/>
+    <SolidColorBrush x:Key="SecondaryBrush" Color="{StaticResource SecondaryColor}"/>
+    <SolidColorBrush x:Key="TextBrush" Color="{StaticResource TextColor}"/>
+    <SolidColorBrush x:Key="BackgroundBrush" Color="{StaticResource BackgroundColor}"/>
+    <SolidColorBrush x:Key="HighlightBrush" Color="{StaticResource HighlightColor}"/>
+    <SolidColorBrush x:Key="ButtonBrush" Color="{StaticResource ButtonColor}"/>
+    <SolidColorBrush x:Key="SuccessBrush" Color="{StaticResource SuccessColor}"/>-->
+            <!--#endregion-->
+
+            <!-- Window Style -->
+            <Style TargetType="Window">
+                <Setter Property="Background" Value="{StaticResource PrimaryBrush}"/>
+                <Setter Property="Foreground" Value="{StaticResource TextBrush}"/>
+                <Setter Property="FontFamily" Value="Segoe UI"/>
+                <Setter Property="FontSize" Value="14"/>
+                <Setter Property="WindowStyle" Value="None"/>
+                <Setter Property="AllowsTransparency" Value="True"/>
+                <Setter Property="Padding" Value="10"/>
+                <Setter Property="Effect">
+                    <Setter.Value>
+                        <DropShadowEffect BlurRadius="15" Color="#90000000" ShadowDepth="0"/>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+            <!-- Button Style -->
+            <Style TargetType="Button">
+                <Setter Property="Background" Value="{StaticResource BackgroundBrush}"/>
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="FontWeight" Value="Bold"/>
+                <Setter Property="Padding" Value="10,5"/>
+                <Setter Property="Margin" Value="5"/>
+                <Setter Property="BorderThickness" Value="0"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Border Background="{TemplateBinding Background}" CornerRadius="8">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+                <Style.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True">
+                        <Setter Property="Background" Value="{StaticResource AccentBrush}"/>
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+
+            <!-- ComboBox Style -->
+            <Style TargetType="ComboBox">
+                <Setter Property="Foreground" Value="{StaticResource TextBrush}"/>
+                <Setter Property="Background" Value="{StaticResource PrimaryBrush}"/>
+                <Setter Property="BorderBrush" Value="{StaticResource AccentBrush}"/>
+                <Setter Property="Padding" Value="5"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="ComboBox">
+                            <Grid>
+                                <Border x:Name="Border"
+                    Background="{TemplateBinding Background}"
+                    BorderBrush="{TemplateBinding BorderBrush}"
+                    BorderThickness="1"
+                    CornerRadius="3"/>
+                                <ToggleButton x:Name="ToggleButton"
+                          Grid.Column="2"
+                          Focusable="False"
+                          IsChecked="{Binding Path=IsDropDownOpen, RelativeSource={RelativeSource TemplatedParent}}"
+                          ClickMode="Press"
+                          Background="{TemplateBinding Background}"
+                          BorderBrush="{TemplateBinding BorderBrush}">
+                                    <Path Data="M 0 0 L 4 4 L 8 0 Z"
+                      Fill="{StaticResource AccentBrush}"
+                      HorizontalAlignment="Center"
+                      VerticalAlignment="Center"/>
+                                </ToggleButton>
+                                <ContentPresenter HorizontalAlignment="Left"
+                              VerticalAlignment="Center"
+                              Margin="4,2,25,2"
+                              Content="{TemplateBinding SelectionBoxItem}"
+                              ContentTemplate="{TemplateBinding SelectionBoxItemTemplate}"
+                              ContentTemplateSelector="{TemplateBinding ItemTemplateSelector}"/>
+                                <Popup x:Name="PART_Popup"
+                   AllowsTransparency="True"
+                   IsOpen="{TemplateBinding IsDropDownOpen}"
+                   Placement="Bottom"
+                   Focusable="False"
+                   PopupAnimation="Slide">
+                                    <Grid MaxHeight="200" Background="{StaticResource PrimaryBrush}">
+                                        <Border x:Name="DropDownBorder" 
+                            Background="{StaticResource PrimaryBrush}" 
+                            BorderBrush="{StaticResource AccentBrush}"
+                            BorderThickness="1"/>
+                                        <ScrollViewer Margin="4,6,4,6">
+                                            <StackPanel IsItemsHost="True" />
+                                        </ScrollViewer>
+                                    </Grid>
+                                </Popup>
+                            </Grid>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsEnabled" Value="False">
+                                    <Setter TargetName="Border" Property="Background" Value="{StaticResource SecondaryBrush}"/>
+                                    <Setter Property="Foreground" Value="{StaticResource AccentBrush}"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <!-- ProgressBar Style -->
+            <Style TargetType="ProgressBar">
+                <Setter Property="Height" Value="10"/>
+                <Setter Property="Foreground" Value="{StaticResource HighlightBrush}"/>
+                <Setter Property="Background" Value="{StaticResource SecondaryBrush}"/>
+                <Setter Property="BorderBrush" Value="Transparent"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="ProgressBar">
+                            <Border Background="{TemplateBinding Background}" 
+                CornerRadius="5" 
+                BorderBrush="{TemplateBinding BorderBrush}" 
+                BorderThickness="0.5">
+                                <Grid x:Name="PART_Track" ClipToBounds="True" SnapsToDevicePixels="True">
+                                    <Rectangle x:Name="PART_Indicator" 
+                           Fill="{TemplateBinding Foreground}" 
+                           HorizontalAlignment="Left" 
+                           RadiusX="5" RadiusY="5"/>
+                                </Grid>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsIndeterminate" Value="True">
+                                    <Setter TargetName="PART_Indicator" Property="Width" Value="0"/>
+                                </Trigger>
+                                <DataTrigger Binding="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=Value}" Value="0">
+                                    <Setter TargetName="PART_Indicator" Property="Width" Value="0"/>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=Value}" Value="100">
+                                    <Setter TargetName="PART_Indicator" Property="Width" Value="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=ActualWidth}"/>
+                                </DataTrigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+
+            <!-- TextBlock Style -->
+            <Style TargetType="TextBlock">
+                <Setter Property="Foreground" Value="{StaticResource TextBrush}"/>
+                <Setter Property="FontSize" Value="14"/>
+                <Setter Property="FontWeight" Value="Medium"/>
+                <Setter Property="Margin" Value="5,0"/>
+            </Style>
+
+        </ResourceDictionary>
+
     </Application.Resources>
 </Application>

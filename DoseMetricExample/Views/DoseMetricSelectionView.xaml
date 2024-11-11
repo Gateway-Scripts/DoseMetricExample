@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:DoseMetricExample.Views"
              mc:Ignorable="d" 
              d:DesignHeight="150" d:DesignWidth="800">
-    <Grid Background="LightSteelBlue">
+    <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
